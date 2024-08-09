@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+.scrollable {
+  background-color: white;
+  background-image: url("../assets/background-watercolor.jpg");
+  background-size: cover;
+  padding: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 450px;
+  aspect-ratio: 1429/2000;
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  flex-wrap: wrap;
+  scrollbar-width: none;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  scroll-snap-align: center;
+  margin-top: 40px;
+}
+
+.title {
+  font-size: 14px;
+  color: #46622a;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+.names {
+  font-size: 4.5rem;
+  color: #46622a;
+  margin-bottom: 6px;
+  font-family: "Alex Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.presentationtext {
+  font-size: 14px;
+  color: #46622a;
+  margin-bottom: 20px;
+}
+
+.rings {
+  max-width: 70px;
+  margin: 0 auto;
+}
+
+.rings img {
+  width: 100%;
+  height: auto;
+}
